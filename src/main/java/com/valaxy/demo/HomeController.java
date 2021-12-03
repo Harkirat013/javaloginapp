@@ -21,7 +21,7 @@ public class HomeController {
 	public ModelAndView home() {
 		ModelAndView mv = new ModelAndView("home");
 
-		//mv.addObject("username", "");
+		//mv.addObject("usernames", "");
 		
 		return mv;
 	}

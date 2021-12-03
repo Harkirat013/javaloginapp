@@ -18,7 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class login {
 
 	@Value("${spring.datasource.url}")
-	private String urls;
+	private String url;
 
 	@Value("${spring.datasource.username}")
 	private String DBusername;

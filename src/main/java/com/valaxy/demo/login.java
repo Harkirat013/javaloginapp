@@ -46,6 +46,7 @@ public class login {
 				userId = rs.getString(4);
 			}
 		} catch (SQLException ex) {
+			
 			System.out.println(ex.getMessage());
 			errorMessage=ex.getMessage();
 		}

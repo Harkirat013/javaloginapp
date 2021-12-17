@@ -33,7 +33,6 @@ public class login {
 	@RequestMapping(value = "login", method = RequestMethod.POST)
 	public ModelAndView login(String userName, String password) throws ClassNotFoundException {
 
-		
 		Class.forName("com.mysql.jdbc.Driver");
 		// validate user credentials
 		String query = "select * from Employee where username='" + userName + "' and password='"+password+"'";

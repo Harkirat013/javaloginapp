@@ -25,7 +25,6 @@ public class login {
 
 	@Value("${spring.datasource.password}")
 	private String DBpassword;
-
 	private String userId = "";
 
 	private String errorMessage="";

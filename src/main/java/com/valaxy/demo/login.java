@@ -46,7 +46,6 @@ public class login {
 			}
 		}
 		catch (SQLException ex) {
-			
 			System.out.println(ex.getMessage());
 			errorMessage=ex.getMessage();
 		}
